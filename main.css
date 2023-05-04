@@ -1,0 +1,49 @@
+body {
+  background-color: #eee;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  background-color:rgb(195, 189, 189) ;
+  justify-content: space-between;
+  list-style: none;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+ul li {
+  width: 60%;
+  height: 60px;
+  border: 2px solid rgb(0, 0, 0)  transparent;
+  border-radius: 5px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 5px;
+}
+ul li.active,
+ul li:hover {
+  opacity: 1;
+}
+ul li:first-child {
+  background-color:red;
+}
+ul li:nth-child(2) {
+  background-color: blue;
+}
+ul li:nth-child(3) {
+  background-color: yellow;
+}
+ul li:nth-child(4) {
+  background-color: green;
+}
+.display {
+  width: 600px;
+  background-color: rgb(37, 36, 36);
+  height: 300px;
+  margin: 30px auto; 
+  border-radius: 2px;
+}
